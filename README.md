@@ -17,7 +17,7 @@ qtde_produtos = 10
 ticket_medio = faturamento / qtde_produtos
 
 # Configurar as informações do seu e-mail
-email.To = "amaraz228@gmail.com; amaral.carlos@ifsp.edu.br"
+email.To = "amaraz228@gmail.com"
 email.Subject = "Automação de E-mails com o Pywin32"
 email.HTMLBody = f"""
 <p>Fala rapaziada, boa noite, e-mail recebido com Sucesso</p>
@@ -30,7 +30,7 @@ email.HTMLBody = f"""
 <p>Obs: Funciona pra estatisticas de rede também</p>
 """
 
-anexo = "COLOCAR AQUI O CAMINHO DO ANEXO"
+anexo = "x:\Repeticao.txt"
 email.Attachments.Add(anexo)
 
 email.Send()
