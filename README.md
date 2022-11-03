@@ -1,7 +1,8 @@
 # Biblioteca Pywin32 - Para automação.
 
   Essa biblioteca traz para o programador um pacote com diversas funções que conectam o programa Python com os aplicativos do computador, para isso é utilizado uma API do próprio Windows, que garante que essa conexão sejá feita, como exemplo, vou utilizar o Outlook para fazer o envio de um e-mail apenas rodando o programa.
-  
+
+```
 # Envio de e-mail com o Pywin32:
 
 import win32com.client as win32
@@ -35,3 +36,4 @@ email.Attachments.Add(anexo)
 
 email.Send()
 print("Email Enviado")
+```
